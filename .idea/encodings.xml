@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/damien2-cloud-class" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-cloud-course" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-cloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-cloud-student" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-cloud-teacher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-java-algorithm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-java-design-pattern" charset="UTF-8" />
+  </component>
+</project>

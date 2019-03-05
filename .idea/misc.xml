@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/damien2-cloud-class/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-student/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-java-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-java-design-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-course/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
