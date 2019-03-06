@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/damien2-java-algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-java-design-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-course/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-specialty/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-config-server-git/pom.xml" />
       </list>
     </option>
   </component>

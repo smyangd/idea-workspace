@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-class/damien2-cloud-class.iml" filepath="$PROJECT_DIR$/damien2-cloud-class/damien2-cloud-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-cloud-config-server-git/damien2-cloud-config-server-git.iml" filepath="$PROJECT_DIR$/damien2-cloud-config-server-git/damien2-cloud-config-server-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-course/damien2-cloud-course.iml" filepath="$PROJECT_DIR$/damien2-cloud-course/damien2-cloud-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-eureka-server/damien2-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/damien2-cloud-eureka-server/damien2-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-cloud-specialty/damien2-cloud-specialty.iml" filepath="$PROJECT_DIR$/damien2-cloud-specialty/damien2-cloud-specialty.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-student/damien2-cloud-student.iml" filepath="$PROJECT_DIR$/damien2-cloud-student/damien2-cloud-student.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-teacher/damien2-cloud-teacher.iml" filepath="$PROJECT_DIR$/damien2-cloud-teacher/damien2-cloud-teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" filepath="$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" />
