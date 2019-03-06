@@ -1,11 +1,14 @@
-
-spring
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: http://git.oschina.net/didispace/config-repo-demo/
+spring:
+ application:
+  name: config-server
+ cloud:
+  config:
+   server:
+    git:
+     #uri: http://git.oschina.net/didispace/config-repo-demo/
+     #git@github.com:smyangd/idea-workspace.git
+     #uri: git@github.com:smyangd/idea-workspace.git
+     uri: https://github.com/smyangd/idea-workspace.git
+     search-paths: damien2-cloud-config-server-git/config-repo
 server:
-  port: 7001
+ port: 7001
