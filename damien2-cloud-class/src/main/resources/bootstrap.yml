@@ -1,0 +1,21 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
+
+spring:
+  application:
+    name: example
+  cloud:
+    config:
+      uri: http://localhost:7001/
+      profile: default
+      label: master
+
+server:
+  port: 5001
+
+  management:
+    security:
+      enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
