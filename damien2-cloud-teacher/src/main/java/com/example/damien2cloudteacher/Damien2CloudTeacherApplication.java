@@ -2,10 +2,13 @@ package com.example.damien2cloudteacher;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+@EnableCircuitBreaker    //或@EnableHystrix注解开启Hystrix的使用：
+							//这里我们还可以使用Spring Cloud应用中的@SpringCloudApplication注解来修饰应用主类
 @EnableDiscoveryClient
 @SpringBootApplication
 public class Damien2CloudTeacherApplication {

@@ -15,6 +15,10 @@
         <option value="$PROJECT_DIR$/damien2-cloud-course/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-specialty/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-config-server-git/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-turbine-http/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-turbine-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-zuul-gateway/pom.xml" />
       </list>
     </option>
   </component>
