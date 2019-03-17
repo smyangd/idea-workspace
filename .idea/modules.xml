@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-class/damien2-cloud-class.iml" filepath="$PROJECT_DIR$/damien2-cloud-class/damien2-cloud-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-cloud-class2/damien2-cloud-class2.iml" filepath="$PROJECT_DIR$/damien2-cloud-class2/damien2-cloud-class2.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-config-server-git/damien2-cloud-config-server-git.iml" filepath="$PROJECT_DIR$/damien2-cloud-config-server-git/damien2-cloud-config-server-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-course/damien2-cloud-course.iml" filepath="$PROJECT_DIR$/damien2-cloud-course/damien2-cloud-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-eureka-server/damien2-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/damien2-cloud-eureka-server/damien2-cloud-eureka-server.iml" />
@@ -12,7 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-teacher/damien2-cloud-teacher.iml" filepath="$PROJECT_DIR$/damien2-cloud-teacher/damien2-cloud-teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-turbine-http/damien2-cloud-turbine-http.iml" filepath="$PROJECT_DIR$/damien2-cloud-turbine-http/damien2-cloud-turbine-http.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-turbine-rabbitmq/damien2-cloud-turbine-rabbitmq.iml" filepath="$PROJECT_DIR$/damien2-cloud-turbine-rabbitmq/damien2-cloud-turbine-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-cloud-zipkin-server/damien2-cloud-zipkin-server.iml" filepath="$PROJECT_DIR$/damien2-cloud-zipkin-server/damien2-cloud-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-zuul-gateway/damien2-cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/damien2-cloud-zuul-gateway/damien2-cloud-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-dubbo-business-student/damien2-dubbo-business-student.iml" filepath="$PROJECT_DIR$/damien2-dubbo-business-student/damien2-dubbo-business-student.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" filepath="$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-java-design-pattern/damien2-java-design-pattern.iml" filepath="$PROJECT_DIR$/damien2-java-design-pattern/damien2-java-design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/idea-workspace.iml" filepath="$PROJECT_DIR$/.idea/idea-workspace.iml" />

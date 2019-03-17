@@ -1,3 +1,6 @@
 
 S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ¹è8¦Ø–å”-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ¹è8šÉü––-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ¹è8šÉü––-
+­%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(´„ÈŽ8šÉü––-

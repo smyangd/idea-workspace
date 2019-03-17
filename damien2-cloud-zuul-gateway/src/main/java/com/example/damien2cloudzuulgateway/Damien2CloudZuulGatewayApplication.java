@@ -1,6 +1,5 @@
 package com.example.damien2cloudzuulgateway;
 
-import com.example.damien2cloudzuulgateway.filter.AccessFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
@@ -9,6 +8,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import springfox.documentation.swagger.web.SwaggerResource;
 import springfox.documentation.swagger.web.SwaggerResourcesProvider;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 import java.util.ArrayList;
@@ -26,10 +26,10 @@ public class Damien2CloudZuulGatewayApplication {
 	/**
 	 * 对接口进行过滤
 	 * */
-	@Bean
-	public AccessFilter accessFilter() {
-		return new AccessFilter();
-	}
+//	@Bean
+//	public AccessFilter accessFilter() {
+//		return new AccessFilter();
+//	}
 
 
 	@Component

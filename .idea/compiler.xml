@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="damien2-cloud-class" />
+        <module name="damien2-cloud-class2" />
         <module name="damien2-cloud-config-server-git" />
         <module name="damien2-cloud-course" />
         <module name="damien2-cloud-eureka-server" />
@@ -16,13 +17,18 @@
         <module name="damien2-cloud-teacher" />
         <module name="damien2-cloud-turbine-http" />
         <module name="damien2-cloud-turbine-rabbitmq" />
+        <module name="damien2-cloud-zipkin-server" />
         <module name="damien2-cloud-zuul-gateway" />
+        <module name="damien2-dubbo-business-student" />
         <module name="damien2-java-algorithm" />
         <module name="damien2-java-design-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="damien2-cloud-business-demo" target="1.8" />
       <module name="damien2-cloud-class" target="1.8" />
+      <module name="damien2-cloud-class (1)" target="1.8" />
+      <module name="damien2-cloud-class2" target="1.8" />
       <module name="damien2-cloud-config-server-git" target="1.8" />
       <module name="damien2-cloud-course" target="1.8" />
       <module name="damien2-cloud-eureka-server" target="1.8" />
@@ -32,7 +38,9 @@
       <module name="damien2-cloud-teacher" target="1.8" />
       <module name="damien2-cloud-turbine-http" target="1.8" />
       <module name="damien2-cloud-turbine-rabbitmq" target="1.8" />
+      <module name="damien2-cloud-zipkin-server" target="1.8" />
       <module name="damien2-cloud-zuul-gateway" target="1.8" />
+      <module name="damien2-dubbo-business-student" target="1.8" />
       <module name="damien2-java-algorithm" target="1.8" />
       <module name="damien2-java-design-pattern" target="1.8" />
     </bytecodeTargetLevel>

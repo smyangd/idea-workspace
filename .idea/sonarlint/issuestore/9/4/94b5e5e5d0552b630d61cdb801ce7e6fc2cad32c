@@ -1,0 +1,4 @@
+
+Usquid:S3400"9Remove this method and declare a constant for this value.(ñ’‹€8˜Éü––-
+xsquid:UselessImportCheck"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.(‡¡‰Ø8˜Éü––-
+vsquid:UselessImportCheck"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ8˜Éü––-

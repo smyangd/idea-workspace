@@ -6,7 +6,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/damien2-cloud-class/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-student/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-teacher/pom.xml" />
@@ -19,7 +18,15 @@
         <option value="$PROJECT_DIR$/damien2-cloud-turbine-http/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-turbine-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/damien2-cloud-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-class2/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-cloud-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/damien2-dubbo-business-student/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/damien2-cloud-business-test/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

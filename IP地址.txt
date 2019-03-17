@@ -1,0 +1,25 @@
+cloud-class         http://localhost:5001/cloud-class-hystrix-consumer
+cloud-class         http://localhost:5001/hystrix-stream
+cloud-class         http://localhost:5001/cloud-class-hystrix-consumer
+
+hystrix-dashboard           http://localhost:8001/hystrix
+
+rabbitmq             http://localhost:15672
+
+
+turbine-http        http://localhost:8011/turbine.stream
+turbine-amqp        http://localhost:8021/turbine.stream
+
+
+zuul-gateway       http://localhost:8031/cloud-student/dc2
+
+zuul-gateway      http://localhost:8031/cloud-student/dc2?accessToken=token
+
+http://localhost:8031/swagger-ui.html
+
+http://localhost:2001/basic-consumer
+http://localhost:2001/swagger-ui.html
+http://localhost:3001/swagger-ui.html
+
+
+zipkin     http://localhost:9411/

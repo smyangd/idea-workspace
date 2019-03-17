@@ -1,4 +1,4 @@
 
 ]squid:S2094"BRemove this empty class, write its code or make it an "interface".(‰ÿ§<8éêøÝ”-
-usquid:UselessImportCheck"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8éêøÝ”-
 ‚squid:UselessImportCheck"YRemove this unused import 'org.springframework.boot.autoconfigure.SpringBootApplication'.(Ë”ÖÏ8éêøÝ”-
+usquid:UselessImportCheck"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8éêøÝ”-
