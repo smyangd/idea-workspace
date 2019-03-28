@@ -13,7 +13,7 @@ public class Damien2JavaAlgorithmApplicationTests {
 	public void contextLoads() {
 	}
 
-	public static void main(String[] args){
+	public static void main2(String[] args){
 
 	    int[] abc = new int[10];
         for (int j = 0; j < abc.length; j++) {
