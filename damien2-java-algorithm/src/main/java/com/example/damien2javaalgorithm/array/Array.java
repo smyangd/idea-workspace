@@ -61,11 +61,13 @@ public class Array<E> {
 	 */
 	public void add(int index, E e) {
 		
-		if(size == data.length) {
-			System.out.println(size);
-		}
+
 		if(index < 0 || index > size) {
 			
+		}
+
+		if(size == data.length) {
+			resize(2 * data.length);
 		}
 		
 		for (int i = size-1; i >= index; i--) {
@@ -75,6 +77,20 @@ public class Array<E> {
 		data[index] = e;
 		size++;
 	}
+
+	/**
+	 *
+	 *
+	 * */
+	private void resize(int length){
+
+		E[] newData = (E[])new Object[length];
+		for (int i = 0; i < size ; i++) {
+			newData[i] = data[i];
+
+		}
+		data = newData;
+	}
 	
 
 	/**
@@ -83,6 +99,22 @@ public class Array<E> {
 	public E get(int index) {
 		return data[index];
 	}
+
+	/**
+	 *
+	 *
+	 * */
+	public E getLast(){
+		return get(size-1);
+	}
+	/**
+	 *
+	 *
+	 * */
+	public E getFirst(){
+		return get(0);
+	}
+
 
 	/**
 	 * 给数组指定位置赋值
@@ -96,7 +128,7 @@ public class Array<E> {
 	 * */
 	public boolean contains(E e){
 		for (int i = 0; i < size; i++) {
-			if(data[i] == e){
+			if(data[i].equals(e)){
 				return true;
 			}
 		}
@@ -109,7 +141,7 @@ public class Array<E> {
 	 * */
 	public int find(E e){
 		for (int i = 0; i < size; i++) {
-			if(data[i] == e){
+			if(data[i].equals(e)){
 				return i;
 			}
 		}
@@ -130,6 +162,10 @@ public class Array<E> {
 //			}
 		}
 		size--;
+
+		if(size == data.length / 4 && data.length / 2 != 0){
+			resize(data.length / 2);
+		}
 		return delete;
 
 	}
@@ -164,16 +200,21 @@ public class Array<E> {
 	public static void main(String[] args) {
 		
 		Array arr = new Array();
-		for (int i = 0; i < 7; i++) {
-			
-			//arr.addLast((int)(Math.random()*10));
-			arr.addLast(UUID.randomUUID().toString());
+//		for (int i = 0; i < 7; i++) {
+//
+//			//arr.addLast((int)(Math.random()*10));
+//			arr.addLast(UUID.randomUUID().toString());
+//		}
+//		System.out.println(arr.toString());
+//		arr.delete(1);
+//		System.out.println(arr.toString());
+
+		for (int i = 0; i < 10 ; i++) {
+			arr.addLast(Integer.valueOf(i));
 		}
-		System.out.println(arr.toString());
-		arr.delete(1);
-		System.out.println(arr.toString());
-
-
+		System.out.println(arr);
+		arr.addLast(20);
+		System.out.println(arr);
 		
 
 	}
@@ -191,6 +232,7 @@ public class Array<E> {
 			}
 		}
 		sbu.append("]");
+		sbu.append(" "+size+" "+data.length);
 		return sbu.toString();
 
 	}
