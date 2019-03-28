@@ -29,4 +29,10 @@ public class Damien2JavaAlgorithmApplicationTests {
 
 	}
 
+	public void hystrix(){
+		System.out.println("111111");
+
+
+	}
+
 }
