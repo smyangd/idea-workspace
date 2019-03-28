@@ -23,7 +23,7 @@ public class Damien2JavaAlgorithmApplicationTests {
 
     }
 
-    public void hystrix(){
+    public void hystrixhystrixhystrixhystrixhystrixhystrixhystrix(){
 		System.out.println("111111");
 
 
