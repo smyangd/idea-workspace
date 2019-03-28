@@ -23,7 +23,7 @@ public class Damien2JavaAlgorithmApplicationTests {
 
     }
 
-    public void zuulzuulzuulzuulzuulzuulzuulzuulzuulzuul(){
+    public void aaaaaaaaaaaaaaaa(){
 		System.out.println("111111");
 
 
