@@ -47,11 +47,6 @@ public class Damien2JavaAlgorithmApplicationTests {
 
 	}
 
-	public void aaaaaaaaaaaaaaaa(){
-		System.out.println("111111");
-
-
-	}
 
 	public void hystrix(){
 		System.out.println("111111");
