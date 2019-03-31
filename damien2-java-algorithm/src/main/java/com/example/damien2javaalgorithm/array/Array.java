@@ -154,12 +154,15 @@ public class Array<E> {
 	public E delete(int index){
 
 		E delete = null;
+		delete = data[index];
 		for (int i = index; i < size; i++) {
-			delete = data[i];
+
+			if(i == size-1){
+				//data[i] = 0;
+				break;
+			}
 			data[i] = data[i+1];
-//			if(i == size-1){
-//				data[i] = 0;
-//			}
+
 		}
 		size--;
 
