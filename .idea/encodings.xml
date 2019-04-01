@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/damien2-cloud-business-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-class" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-class2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-config-server-git" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-course" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/damien2-cloud-javamail" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-specialty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-student" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/damien2-cloud-teacher" charset="UTF-8" />

@@ -1,5 +1,6 @@
 package com.example.damien2javaalgorithm.queue;
 
+import com.example.damien2javaalgorithm.linkedList.LinkedListQueue;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.Random;
@@ -29,6 +30,9 @@ public class 数组队列和循环队列时间复杂度比较 {
 
         LoopQueue loopQueue = new LoopQueue();
         System.out.println(testqueue(loopQueue, 100000));
+
+        LinkedListQueue linkedListQueue = new LinkedListQueue();
+        System.out.println(testqueue(linkedListQueue, 100000));
 
     }
 }

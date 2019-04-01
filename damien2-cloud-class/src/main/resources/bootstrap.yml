@@ -11,20 +11,20 @@ spring:
       uri: http://localhost:7001/
       profile: default
       label: master
-    stream:
-      bindings:
-        input:
-          destination: greetings
-          group: cloud-class
-          consumer:
-            partitioned: true   #表示启用消息分区功能
-      instance-count: 2     #表示消息分区的消费端节点数量为2个
-      instance-index: 0     #该参数设置消费端实例的索引号，索引号从0开始。这里设置该节点的索引号为0
-  rabbitmq:
-        host: localhost
-        port: 5672
-        username: guest
-        password: guest
+#    stream:
+#      bindings:
+#        input:
+#          destination: greetings
+#          group: cloud-class
+#          consumer:
+#            partitioned: true   #表示启用消息分区功能
+#      instance-count: 2     #表示消息分区的消费端节点数量为2个
+#      instance-index: 0     #该参数设置消费端实例的索引号，索引号从0开始。这里设置该节点的索引号为0
+#  rabbitmq:
+#        host: localhost
+#        port: 5672
+#        username: guest
+#        password: guest
 
 server:
   port: 5001

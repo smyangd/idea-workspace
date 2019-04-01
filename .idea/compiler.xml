@@ -12,6 +12,7 @@
         <module name="damien2-cloud-course" />
         <module name="damien2-cloud-eureka-server" />
         <module name="damien2-cloud-hystrix-dashboard" />
+        <module name="damien2-cloud-javamail" />
         <module name="damien2-cloud-specialty" />
         <module name="damien2-cloud-student" />
         <module name="damien2-cloud-teacher" />
@@ -33,6 +34,7 @@
       <module name="damien2-cloud-course" target="1.8" />
       <module name="damien2-cloud-eureka-server" target="1.8" />
       <module name="damien2-cloud-hystrix-dashboard" target="1.8" />
+      <module name="damien2-cloud-javamail" target="1.8" />
       <module name="damien2-cloud-specialty" target="1.8" />
       <module name="damien2-cloud-student" target="1.8" />
       <module name="damien2-cloud-teacher" target="1.8" />
