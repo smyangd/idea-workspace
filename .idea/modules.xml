@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-zipkin-server/damien2-cloud-zipkin-server.iml" filepath="$PROJECT_DIR$/damien2-cloud-zipkin-server/damien2-cloud-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-cloud-zuul-gateway/damien2-cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/damien2-cloud-zuul-gateway/damien2-cloud-zuul-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-dubbo-business-student/damien2-dubbo-business-student.iml" filepath="$PROJECT_DIR$/damien2-dubbo-business-student/damien2-dubbo-business-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/damien2-java/damien2-java.iml" filepath="$PROJECT_DIR$/damien2-java/damien2-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" filepath="$PROJECT_DIR$/damien2-java-algorithm/damien2-java-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/damien2-java-design-pattern/damien2-java-design-pattern.iml" filepath="$PROJECT_DIR$/damien2-java-design-pattern/damien2-java-design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/idea-workspace.iml" filepath="$PROJECT_DIR$/.idea/idea-workspace.iml" />

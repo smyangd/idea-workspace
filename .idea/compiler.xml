@@ -21,6 +21,7 @@
         <module name="damien2-cloud-zipkin-server" />
         <module name="damien2-cloud-zuul-gateway" />
         <module name="damien2-dubbo-business-student" />
+        <module name="damien2-java" />
         <module name="damien2-java-algorithm" />
         <module name="damien2-java-design-pattern" />
       </profile>
@@ -43,6 +44,7 @@
       <module name="damien2-cloud-zipkin-server" target="1.8" />
       <module name="damien2-cloud-zuul-gateway" target="1.8" />
       <module name="damien2-dubbo-business-student" target="1.8" />
+      <module name="damien2-java" target="1.8" />
       <module name="damien2-java-algorithm" target="1.8" />
       <module name="damien2-java-design-pattern" target="1.8" />
     </bytecodeTargetLevel>
