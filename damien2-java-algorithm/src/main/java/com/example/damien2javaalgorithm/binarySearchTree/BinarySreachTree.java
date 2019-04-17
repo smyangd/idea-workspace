@@ -1,5 +1,7 @@
 package com.example.damien2javaalgorithm.binarySearchTree;
 
+import java.util.*;
+
 public class BinarySreachTree<E extends Comparable<E>> {
 
     private class Node{
@@ -134,6 +136,26 @@ public class BinarySreachTree<E extends Comparable<E>> {
     }
 
 
+    //前序遍历非递归实现
+    public void preOrderNR(){
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node curr = stack.pop();
+            System.out.println(curr.e);
+
+            if (curr.right != null) {
+                stack.push(curr.right);
+            }
+
+            if (curr.left != null) {
+                stack.push(curr.left);
+            }
+
+        }
+    }
+
+
     //中序遍历
     public void inOrder(){
         inOrder(root);
@@ -167,6 +189,119 @@ public class BinarySreachTree<E extends Comparable<E>> {
     }
 
 
+    //二分搜索树的层序遍历
+    public void levelOrder(){
+        Queue<Node> queue = new LinkedList<>();
+        ((LinkedList<Node>) queue).add(root);
+        while (!queue.isEmpty()) {
+            Node curr = queue.remove();
+            System.out.println(curr.e);
+            if (curr.left != null) {
+                ((LinkedList<Node>) queue).add(curr.left);
+            }
+
+            if (curr.right != null) {
+                ((LinkedList<Node>) queue).add(curr.right);
+            }
+        }
+    }
+
+
+    //寻找二分搜索书的做小元素
+    public E minimum(){
+        if (size == 0) {
+            System.out.println();
+        }
+        return minimum(root).e;
+    }
+
+    private Node minimum(Node node){
+        if (node.left == null) {
+            return node;
+        }
+        return minimum(node.left);
+    }
+
+
+    //寻找二分搜索书的做大元素
+    public E maximum(){
+        if (size == 0) {
+            System.out.println();
+        }
+        return maximum(root).e;
+    }
+
+    private Node maximum(Node node){
+        if (node.right == null) {
+            return node;
+        }
+        return maximum(node.right);
+    }
+
+
+    //删除二分搜索树最小元素
+    public E removeMIN(){
+        E ret = minimum();
+        root = removeMIN(root);
+        return ret;
+    }
+
+    private Node removeMIN(Node node){
+
+        if (node.left == null){
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+
+        node.left=removeMIN(node.left);
+        return node;
+
+    }
+
+    //删除二分搜索树的指定任意元素
+    public void remove(E e){
+        root = remove(root, e);
+    }
+
+    private Node remove(Node node ,E e){
+        if (node == null) {
+            return null;
+        }
+
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        }else if (e.compareTo(node.e) >0){
+            node.right = remove(node.right, e);
+            return node;
+        }else{
+
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            }
+
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+
+            Node successor = minimum(node.right);
+            successor.right = removeMIN(node.right);
+            successor.left = node.left;
+
+            node.left = node.right = null;
+            return successor;
+        }
+
+    }
+
 
     @Override
     public String toString() {
@@ -188,14 +323,17 @@ public class BinarySreachTree<E extends Comparable<E>> {
 //        binarySreachTree.add(19);
 //        binarySreachTree.add(8);
 
-        binarySreachTree.add2(10);
-        binarySreachTree.add2(1);
-        binarySreachTree.add2(2);
-        binarySreachTree.add2(3);
-        binarySreachTree.add2(4);
-        binarySreachTree.add2(5);
-        binarySreachTree.add2(19);
-        binarySreachTree.add2(8);
+        for (int i = 0; i < 10; i++) {
+
+            binarySreachTree.add2((int)(Math.random()*100));
+
+        }
+//        binarySreachTree.add2(10);
+//        binarySreachTree.add2(3);
+//        binarySreachTree.add2(4);
+//        binarySreachTree.add2(5);
+//        binarySreachTree.add2(19);
+//        binarySreachTree.add2(8);
 
         System.out.println(binarySreachTree);
 
@@ -204,8 +342,25 @@ public class BinarySreachTree<E extends Comparable<E>> {
 
 
         //binarySreachTree.preOrder();
-        //binarySreachTree.inOrder();
-        binarySreachTree.postOrder();
+        binarySreachTree.inOrder();
+        //binarySreachTree.postOrder();
+
+        //binarySreachTree.preOrderNR();
+        //binarySreachTree.levelOrder();
+        System.out.println("--------------------");
+        System.out.println(binarySreachTree.minimum());
+        System.out.println(binarySreachTree.maximum());
+
+        binarySreachTree.removeMIN();
+
+        //System.out.println(binarySreachTree);
+
+        System.out.println("--------------------");
+        binarySreachTree.inOrder();
+
+        //Queue queue = new LinkedList<>();
+
+        Set set = new HashSet();
     }
 
 
